@@ -21,11 +21,11 @@ const Home = () => {
       </div>
       <div className="home__body">
         <img
-          src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png"
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           alt=""
         />
         <div className="home__inputContainer">
-          <Search hideButtons />
+          <Search />
         </div>
       </div>
     </div>

@@ -38,14 +38,16 @@ const Search = ({ hideButtons = false }) => {
           </Button>
           <Button variant="outlined">I'm Feeling Lucky</Button>
         </div>
-      ) : (
+      ) : 
+      (
         <div className="search__buttons">
-          <Button type="submit" className="search__buttonsHidden"  onClick={search} variant="outlined">
+          {/* <Button type="submit" className="search__buttonsHidden"  onClick={search} variant="outlined">
             Google Search
           </Button>
-          <Button variant="outlined">I'm Feeling Lucky</Button>
+          <Button variant="outlined">I'm Feeling Lucky</Button> */}
         </div>
-      )}
+      )
+      }
     </form>
   );
 };
